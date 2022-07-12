@@ -19,7 +19,7 @@ html::-webkit-scrollbar-thumb{
     cursor: pointer;
 }
 .btn-x{
-    border: 2px solid #F0F0F0;
+    border: 3px solid #F0F0F0;
     font-size: 12px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -29,6 +29,7 @@ html::-webkit-scrollbar-thumb{
 }
 .done{
     border-radius: 10px;
+    border: 3px solid #F0F0F0;
     /*border: 2px solid #F0F0F0;*/
 }
 .done:hover{
@@ -45,10 +46,12 @@ html::-webkit-scrollbar-thumb{
     font-size: 15px!important;
 }
 .done-app{
+    border: 1px solid #81807E;
     border-top-left-radius: 55px!important;
     border-bottom-right-radius: 55px!important;
 }
 .done-app:hover{
+    border: none;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 .line-app{
@@ -138,4 +141,7 @@ html::-webkit-scrollbar-thumb{
 }
 .img-fluid{
     pointer-events: none!important;
+}
+.bg-clr{
+    background-color: #494949!important;
 }
