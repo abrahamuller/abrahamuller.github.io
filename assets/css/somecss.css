@@ -1,3 +1,18 @@
+:root{
+    --primary-color: #edf2fc!important;
+    --secondary-color: #95888B;
+    --black-color:#000106;
+    --bg-cl:#F5F9F7!important;
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+.dark-theme{
+    --primary-color: #151A16!important;
+    --secondary-color: #95888B;
+    --black-color:#edf2fc;
+    --bg-cl:#0E0E0E!important;
+    --white-color:white;
+}
 html::-webkit-scrollbar{
     width: 10px;
     height: 10px;
@@ -30,11 +45,8 @@ html::-webkit-scrollbar-thumb{
 .done{
     border-radius: 10px;
     border: 3px solid #F0F0F0;
-    /*border: 2px solid #F0F0F0;*/
 }
 .done:hover{
-    /*border-radius: 10px;
-    border: 3px solid #E8E8E8;*/
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .title-dev{
@@ -98,9 +110,12 @@ html::-webkit-scrollbar-thumb{
     box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.2), 0px 3px 6px rgba(255, 255, 255, 0.2);
 }
 .home-color{
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
     color: white!important;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    border-radius: 50px;
 }
 .kazi-color{
     color: black;
@@ -109,6 +124,7 @@ html::-webkit-scrollbar-thumb{
     font-weight: bold;
     background-color: white;
     border-radius: 15px;
+    border: 1px solid black;
 }
 .kazi-color:hover{
     color: white;
@@ -144,4 +160,61 @@ html::-webkit-scrollbar-thumb{
 }
 .bg-clr{
     background-color: #494949!important;
+}
+.width-btn{
+    width: 100%!important;
+}
+.btn-menu a{
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 0px!important;
+}
+.btn-menu:hover .a{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-btn:focus{
+    box-shadow: none!important;
+}
+.menu-btn:hover{
+    background-color: #000000!important;
+    background-image: linear-gradient(315deg, #000000 0%, #5e5368 74%)!important;
+}
+.done-back{
+    background-color: #000000!important;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%)!important;
+}
+.university{
+    border-radius: 10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.placed{
+    font-size: 15px!important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.university:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.img-size{
+    width: 100px;
+    height: 100px;
+}
+.img-sizex{
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+}
+.img-size:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px!important;
+}
+.mode-drk{
+    height: 30px!important;
+    width: 30px!important;
 }
