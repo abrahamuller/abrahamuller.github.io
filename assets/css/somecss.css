@@ -58,9 +58,8 @@ html::-webkit-scrollbar-thumb{
     font-size: 15px!important;
 }
 .done-app{
-    border: 1px solid #81807E;
-    border-top-left-radius: 55px!important;
-    border-bottom-right-radius: 55px!important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 10px!important;
 }
 .done-app:hover{
     border: none;
