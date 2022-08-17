@@ -1,14 +1,5 @@
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/@charset "UTF-8";
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+@charset "UTF-8";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -11187,5 +11178,3 @@ span.sicon {
 @media (max-width: 768px) {
   .w3l-contacts-12 textarea {
     height: 150px; } }
-
-/*# sourceMappingURL=style-starter.css.map */
