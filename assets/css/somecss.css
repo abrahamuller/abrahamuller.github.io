@@ -155,7 +155,7 @@ html::-webkit-scrollbar-thumb{
     font-size: 80px;
 }
 .img-fluid{
-    pointer-events: none!important;
+    /*pointer-events: none!important;*/
 }
 .bg-clr{
     background-color: #494949!important;
@@ -217,3 +217,23 @@ html::-webkit-scrollbar-thumb{
     height: 30px!important;
     width: 30px!important;
 }
+.iconmllr:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s!important;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite!important;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
